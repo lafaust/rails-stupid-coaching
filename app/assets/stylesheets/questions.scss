@@ -1,0 +1,25 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
+
+
+#form-input {
+  width: 200px;
+  height: 22px;
+  border-radius: 3px;
+}
+
+#btn {
+  width: 50px;
+  height: 28px;
+  border-radius: 3px;
+}
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Red Hat Text', sans-serif;
+}
+
